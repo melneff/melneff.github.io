@@ -30,6 +30,11 @@ jobs:
       - name: Install
         run: npm ci
 
+      - name: Clean up old built files
+        run: |
+          rm -f index.html
+          rm -rf assets/
+
       - name: Build
         run: npm run build
 
