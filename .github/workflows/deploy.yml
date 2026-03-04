@@ -43,11 +43,12 @@ jobs:
           mkdir -p assets
           cp -r dist/assets/* assets/
           cp -r dist/*.svg . || true
+          cp dist/*.pdf . || true
 
       - name: Commit and push built files
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add index.html assets/ *.svg
+          git add index.html assets/ *.svg *.pdf
           git commit -m "Build: update assets" || true
           git push
