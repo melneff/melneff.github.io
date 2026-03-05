@@ -7,7 +7,6 @@ export default function Resume() {
     <Section
       id="resume"
       title="Resume"
-      subtitle="Keep a 1-page PDF in /public/resume.pdf and update this timeline as needed."
       right={
         <Button href={PROFILE.links.resume} variant="primary" download>
           Download PDF

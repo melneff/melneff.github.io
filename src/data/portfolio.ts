@@ -115,19 +115,82 @@ export const PROJECTS: Project[] = [
     tech: ["AWS Glue", "S3", "Athena", "Parquet", "SQL"],
     links: [],
   },
+  {
+    id: "reno-haul",
+    name: "Reno Haul — Junk Hauling Landing",
+    timeframe: "2025",
+    description:
+      "Graphics-heavy landing page for a junk hauling business with animated truck navigation, service showcase, pricing, and booking form.",
+    highlights: [
+      "Animated truck indicator that follows active nav section",
+      "Custom SVG illustrations with gradient fills and interactive animations",
+      "Full-page sections: hero, services, pricing, gallery, reviews, booking",
+      "Responsive design optimized for mobile and desktop",
+    ],
+    tech: ["React", "TypeScript", "Framer Motion", "Tailwind CSS"],
+    links: [{ label: "View Live", href: "#/project/reno-haul", kind: "primary" }],
+  },
 ];
 
 export const EXPERIENCE: ExperienceItem[] = [
   {
-    company: "Anywhere Real Estate",
-    role: "Software Engineer",
-    period: "2019-Present",
+    company: "VCV8",
+    role: "Senior Software Engineer",
+    period: "Oct 2025 – Current",
     bullets: [
-      "Built and maintained microservices powering lead distribution and routing with a React frontend and GraphQL middle layer.",
-      "Designed event-driven workflows using Kafka, AWS messaging patterns and worker services.",
-      "Improved service reliability with better observability, retries, and safe deployments.",
-      "Built and maintained a lead pipeline delivering 35k+ leads/month with 99.9% uptime.",
-      "Built in custom configurability for high-profile clients like Sotheby's and ColdwellBanker who serve thousands of agents and require complex routing rules.",
+      "Lead backend engineer designing and building a business validator pipeline using asynchronous job queueing and LLM prompting with vector store for 8-pillar evaluation.",
+      "Implemented chatback feature for user communication with LLM and report re-run capability.",
+      "Integrated OpenAI, DeepSeek, and Gemini LLM APIs with data from FRED, BEA, USCensus, USPTO, and SerpAPIs to reduce LLM variability.",
+      "Took startup from 0 to 1.",
+    ],
+  },
+  {
+    company: "Anywhere Real Estate Inc.",
+    role: "Senior Software Engineer / Team Lead",
+    period: "Mar 2019 – Mar 2026",
+    bullets: [
+      "Key engineer on cloud-native Leads Engine microservice—greenfield system processing ~35k leads/week for 300k+ agents across multiple countries.",
+      "Orchestrated first large-scale production rollout of Leads Engine pilot across multiple brokerages.",
+      "Led architectural refactors from legacy to scalable, event-driven designs with Kafka and SQS.",
+      "Enhanced Datadog observability with improved telemetry, granular metrics, and distributed tracing across microservices.",
+      "Designed high-throughput workflows processing millions of transactions annually for Sotheby's, C21, BH&G, and Coldwell Banker.",
+      "Built asynchronous data egress pipeline (Go, TypeScript, Kafka, AWS Lambda) for ML training and analytics.",
+      "Senior escalation point for complex production incidents and root-cause analysis.",
+      "Led team through agile ceremonies, sprint planning, JIRA workflow, and tech debt initiatives.",
+    ],
+  },
+  {
+    company: "No-IP",
+    role: "Software Engineer I",
+    period: "Jan 2018 – Mar 2019",
+    bullets: [
+      "Built and maintained high-traffic SaaS applications serving global customer base.",
+      "Developed backend REST APIs and services using PHP/Laravel.",
+      "Implemented frontend systems with Vue.js and modern JavaScript.",
+      "Integrated Zuora's REST API for subscription and billing management.",
+      "Successfully migrated ~200k No-IP customer products and data to Zuora using MySQL and Eloquent ORM.",
+      "Created new payment processing system for No-IP customers using Laravel and Vue.js.",
+    ],
+  },
+  {
+    company: "International Game Technology (IGT)",
+    role: "Application Developer (SDET)",
+    period: "May 2016 – Dec 2017",
+    bullets: [
+      "Designed automated testing frameworks and internal tools for highly regulated slot machine games.",
+      "Built custom Gantt chart tool to track team efficiency and roadmap progress.",
+      "Partnered with development teams to reproduce defects, isolate root causes, and validate fixes for state-level testing.",
+      "Helped define testing standards and best practices across teams.",
+    ],
+  },
+  {
+    company: "Accenture",
+    role: "Technical Consultant",
+    period: "Oct 2015 – May 2016",
+    bullets: [
+      "Developed native iOS applications in Swift for Intel's wearable ecosystem with real-time data visualization.",
+      "Partnered with Intel engineering and product teams to translate hardware capabilities into scalable mobile features.",
+      "Worked within fast-paced consulting delivery cycles balancing client expectations and production readiness.",
     ],
   },
 ];
