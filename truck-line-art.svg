@@ -1,0 +1,38 @@
+<svg width="640" height="360" viewBox="0 0 640 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g stroke="#111111" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <!-- body outline -->
+    <path d="M58 212 L62 236 Q64 248 76 248 H554 Q566 248 570 236 L576 210 Q580 194 566 194 H486 L408 146 H348 L336 194 H182 Q106 198 58 212 Z"/>
+
+    <!-- front fender -->
+    <path d="M100 248 Q100 204 140 194 H182"/>
+
+    <!-- rear fender -->
+    <path d="M388 248 Q388 204 426 194 H486"/>
+
+    <!-- cab and windows -->
+    <path d="M184 194 L230 144 Q238 136 252 136 H336 Q348 136 348 148 V188 Q348 194 342 194 Z"/>
+    <rect x="240" y="156" width="90" height="60" rx="6"/>
+
+    <!-- bed rack / frame -->
+    <line x1="398" y1="138" x2="398" y2="194"/>
+    <line x1="414" y1="138" x2="414" y2="194"/>
+    <line x1="414" y1="146" x2="514" y2="204"/>
+
+    <!-- details -->
+    <line x1="188" y1="224" x2="378" y2="224"/>
+    <line x1="504" y1="224" x2="566" y2="224"/>
+    <line x1="278" y1="258" x2="398" y2="258"/>
+    <line x1="168" y1="258" x2="256" y2="258"/>
+    <line x1="302" y1="214" x2="322" y2="214"/>
+    <line x1="62" y1="228" x2="80" y2="228"/>
+  </g>
+
+  <!-- wheels -->
+  <g stroke="#111111" fill="none" stroke-width="8">
+    <circle cx="150" cy="252" r="44"/>
+    <circle cx="150" cy="252" r="22"/>
+
+    <circle cx="438" cy="252" r="44"/>
+    <circle cx="438" cy="252" r="22"/>
+  </g>
+</svg>
